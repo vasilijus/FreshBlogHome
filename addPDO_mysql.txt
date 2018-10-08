@@ -1,0 +1,9 @@
+https://forum.matomo.org/t/you-need-to-enable-the-pdo-and-pdo-mysql-extensions-in-your-php-ini-file/261
+
+…or create a new repository on the command line
+echo "# FreshBlogHome" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/vasilijus/FreshBlogHome.git
+git push -u origin master
