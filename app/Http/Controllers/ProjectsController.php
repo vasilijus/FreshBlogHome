@@ -13,9 +13,14 @@ class ProjectsController extends Controller
 
     public function index()
     {
-    	$projects = Project::all();
+    	$projects = \App\Project::all();
 
-    	return view('projects.index');
+    	$names = ['Pedro','Michael','Ewa'];
+    	// return $projects;
+    	return view('projects.index',compact('projects' , 'names')/*[
+    		'projects' => $projects,
+    		'names' => $names
+    	]*/);
     }
 
 }

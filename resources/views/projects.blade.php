@@ -27,7 +27,18 @@
                 <div class="links">
                     <a href="/about">About</a>
                     <a href="/contact">Contact</a>
+                    <p>zopa</p>
                 </div>
+                <ul>
+                    
+                    @foreach ($projects as $project)
+
+                        <li>{{ $project }}</li>
+
+                    @foreach
+                    
+
+                </ul>
             </div>
         </div>
 
