@@ -1,0 +1,1 @@
+https://forum.matomo.org/t/you-need-to-enable-the-pdo-and-pdo-mysql-extensions-in-your-php-ini-file/261
